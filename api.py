@@ -9,7 +9,6 @@ from typing import Annotated
 
 
 load_dotenv()
-print("changed")
 
 connPool = pool.SimpleConnectionPool(3, 10, 
                                     database = os.getenv("PG_DATABASE"), 
